@@ -7,5 +7,5 @@ int main()
     setlocale(0, "Russian");
     cout << "Введите целое число"<<endl;
     cin >> a;
-
+    cout << "Квадрат числа: " << a*a;
 }
